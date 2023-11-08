@@ -1,0 +1,37 @@
+Exp 6
+ git clone https://github.com/aaryaparadkar/docker-starter.git
+cd docker-starter
+docker build -t docker-starter .
+ docker run -dp 127.0.0.1:3000:3000 docker-starter
+docker ps
+docker images
+
+
+Exp 1
+(1)git --version
+(2)git config --global user.name ""
+(3)git config --global user.email ""
+(4)git init 
+(5) git status
+(6)git add "file name in same folder"
+(7)git commit -m "msg"
+(9)git logl
+
+Exp 2
+git remote add origin https://github.com/RP1618/Amat.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+Exp 3
+git branch rp 
+git branch
+git checkout rp
+edit in code
+git add .
+git commit -m "msg"
+git checkout main
+git merge rp

@@ -25,6 +25,7 @@ CMD ["node", "src/index.js"]
 EXPOSE 3000
 
 Exp 7 To perform Docker commands for containerization.
+$ git clone https://github.com/docker/getting-started-app.git
 
 
 docker pull redis

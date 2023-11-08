@@ -7,7 +7,9 @@ https://github.com/aaryaparadkar/jenkins_deploy.git
 
 
 
-Exp 6
+Exp 6 To Create Docker Image of any application.
+
+
  git clone https://github.com/aaryaparadkar/docker-starter.git
 cd docker-starter
 docker build -t docker-starter .
@@ -22,7 +24,9 @@ RUN yarn install --production
 CMD ["node", "src/index.js"]
 EXPOSE 3000
 
-Exp 7
+Exp 7 To perform Docker commands for containerization.
+
+
 docker pull redis
 docker run -d redis
 docker ps
@@ -31,7 +35,7 @@ docker ps -a
 docker start container id
 
 
-Exp 8
+Exp 8 To perform Docker commands with push and pull commands.
 docker tag redis rp1618/heyy:v1.0
 docker push rp1618/heyy:v1.0
 docker ps
@@ -40,7 +44,8 @@ docker images
 
  
 
-Exp 1
+Exp 1 To perform version control on websites/software using GIT.
+
 (1)git --version
 (2)git config --global user.name ""
 (3)git config --global user.email ""
@@ -59,9 +64,12 @@ Exp 1
 
 </html>
 (7)git commit -m "msg"
-(9)git logl
+(9)git log
 
-Exp 2
+Exp 2 o perform version control on websites/software using GIT with push and pull commands.
+git init
+git add .
+git commit -m "msg"
 git remote add origin https://github.com/RP1618/Amat.git
 git branch -M main
 git push -u origin main
@@ -70,7 +78,8 @@ git push -u origin main
 
 
 
-Exp 3
+Exp 3 To perform branching of any web application on GIT.
+
 git branch rp 
 git branch
 git checkout rp

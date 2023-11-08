@@ -6,7 +6,6 @@ docker build -t docker-starter .
 docker ps
 docker images
 
-code:-
 FROM node:18-alpine
 WORKDIR /app
 COPY . /app/
@@ -15,7 +14,19 @@ CMD ["node", "src/index.js"]
 EXPOSE 3000
 
 Exp 7
+docker pull redis
+docker run -d redis
+docker ps
+docker stop container id
+docker ps -a
+docker start container id
 
+
+Exp 8
+
+
+
+ 
 
 Exp 1
 (1)git --version

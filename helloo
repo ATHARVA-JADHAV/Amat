@@ -1,3 +1,12 @@
+Jenkins
+https://github.com/aaryaparadkar/jenkins_deploy.git
+
+
+
+
+
+
+
 Exp 6
  git clone https://github.com/aaryaparadkar/docker-starter.git
 cd docker-starter
@@ -23,7 +32,10 @@ docker start container id
 
 
 Exp 8
-
+docker tag redis rp1618/heyy:v1.0
+docker push rp1618/heyy:v1.0
+docker ps
+docker images
 
 
  
@@ -35,6 +47,17 @@ Exp 1
 (4)git init 
 (5) git status
 (6)git add "file name in same folder"
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1> Hello </h1>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+</body>
+
+</html>
 (7)git commit -m "msg"
 (9)git logl
 

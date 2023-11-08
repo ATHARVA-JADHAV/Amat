@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git 'https://github.com/RP1618/Amat.git'
+                git 'https://github.com/ATHARVA-JADHAV/Amat.git'
             }
         }
         stage('Build Code') {

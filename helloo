@@ -6,6 +6,16 @@ docker build -t docker-starter .
 docker ps
 docker images
 
+code:-
+FROM node:18-alpine
+WORKDIR /app
+COPY . /app/
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+EXPOSE 3000
+
+Exp 7
+
 
 Exp 1
 (1)git --version
